@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="PasswordEditText">
+        <!--编辑框宽度-->
+        <attr name="edit_width" format="dimension" />
+        <!--小眼睛图标引用-->
+        <attr name="eyeIcon" format="reference" />
+        <!--小眼睛宽度-->
+        <attr name="eye_width" format="dimension" />
+        <!--提示语-->
+        <attr name="hint" format="string" />
+        <!--密码可见性，true为可见，默认false-->
+        <attr name="passwordVisible" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="DownloadButton">
+        <!--已下载进度-->
+        <attr name="download_progress" format="integer" />
+        <!--最大进度-->
+        <attr name="maxprogress" format="integer" />
+        <!--进度条颜色-->
+        <attr name="progress_color" format="color" />
+        <!--默认文字-->
+        <attr name="progress_default_text" format="string" />
+        <!--进度条边角半径-->
+        <attr name="progress_radius" format="dimension" />
+        <!--进度文字颜色-->
+        <attr name="progress_text_color" format="color" />
+    </declare-styleable>
+</resources>
